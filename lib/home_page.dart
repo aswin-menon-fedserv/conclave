@@ -559,7 +559,7 @@ class _HomePageState extends State<HomePage> {
                         height: 140.0, 
                         child: ListView.builder(
                           scrollDirection:
-                              Axis.horizontal, // Set horizontal scrolling
+                              Axis.horizontal, // Set horizo
                           itemCount: quizes.length,
                           itemBuilder: (context, index) {
                             return GestureDetector(
